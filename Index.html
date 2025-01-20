@@ -5,39 +5,64 @@
     <title>Mundo Presion</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="robots" content="index, follow">
-	<meta name="author" content="Emiliano Romero">
-	<meta name="keywords" content="desarrollo web, programación, diseño web, fotografia">     <!-- Cambiar --> 
-	<meta name="description" content="Te osfresco mis servicios de diseño, desarrollo y fotografía para tu sitio web">     <!-- Cambiar --> 
-	<meta property="og:type" content="Web Site">     <!-- Cambiar --> 
-	<meta property="og:title" content="Emiliano Romero - Portfolio">
-	<meta property="og:description"
-		content="Te osfresco mis servicios de diseño, desarrollo y fotografía para tu sitio web">     <!-- Cambiar --> 
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Emiliano Romero">
+    <meta name="keywords" content="desarrollo web, programación, diseño web, fotografia"> <!-- Cambiar -->
+    <meta name="description" content="Te osfresco mis servicios de diseño, desarrollo y fotografía para tu sitio web">    <!-- Cambiar -->
+    <meta property="og:type" content="Web Site"> <!-- Cambiar -->
+    <meta property="og:title" content="Emiliano Romero - Portfolio">
+    <meta property="og:description"
+        content="Te osfresco mis servicios de diseño, desarrollo y fotografía para tu sitio web"> <!-- Cambiar -->
     <link rel="shortcut icon" href="./assets/img/mundo-presion-favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
 </head>
 
 <body>
     <header id="header-js">
-		<div class="header-container">
-			<a class="logo" href="#">
-				<img src="./assets/img/home.png" alt="Inicio">Inicio
-			</a>
-			<div class="mobile-toggle">
-				<span></span>
-				<span></span>
-				<span></span>
+        <div class="header-container">
+            <a class="logo" href="#">
+                <img src="./assets/img/home.png" alt="Inicio">Inicio</a>
+            <div class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#sobre-mi" id="bar-1">Sobre mí</a></li>
+                    <li><a href="#skills" id="bar-2">Skills</a></li>
+                    <li><a href="#portfolio" id="bar-3">Portfolio</a></li>
+                    <li><a href="#contacto" id="bar-4">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <footer>
+		<div class="footer-content">
+			<div class="social-media">
+				<p>Redes</p>
+				<div class="social-icons">
+					<a href="https://github.com/emilianoar23" target="_blank"><img src="./assets/img/github.png"
+							alt="github icon"></a>
+					<a href="https://www.linkedin.com/in/emilianoar23/" target="_blank"><img
+							src="./assets/img/linkedin.png" alt="linkedin icon"></a>
+				</div>
 			</div>
-			<nav>
-				<ul>
-					<li><a href="#sobre-mi" id="bar-1">Sobre mí</a></li>
-					<li><a href="#skills" id="bar-2">Skills</a></li>
-					<li><a href="#portfolio" id="bar-3">Portfolio</a></li>
-					<li><a href="#contacto" id="bar-4">Contacto</a></li>
-				</ul>
-			</nav>
+			<div class="contact-info">
+				<p>Contacto</p>
+				<a href="mailto:emilianoromeroft@gmail.com">emilianoromeroft@gmail.com</a>
+			</div>
 		</div>
-	</header>
-
+		<p id="copyright"> &copy; <span id="currentYear"></span> Emiliano Romero Todos los derechos reservados</p>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<script src="./assets/scripts/header-footer.js"></script>
+	<script src="./assets/scripts/sections.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,47 @@
+//color de letra
+$font-white: #FAFBFB;
+$font-dark: #0e0d0d;
+
+//detalles
+$dt-color1: #edc720;
+$dt-color2: #2D2137;
+
+//formulario
+$shadow-color: #000;
+
+//color contenedores
+$bg-bdy: #ececec;
+$bg-hdr-ftr: #1e1e1f;
+$bg-container1: #9591A4;
+$bg-container2: #9D9B9D;
+
+//hero sec
+$pointSize: 2.5;
+
+//Estilo de seccion
+%row {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 2%;
+  &.content {
+    padding: 50px 2% 250px;
+  }
+}
+
+//Estilo de titulos
+%titulos {
+    font-size: 2rem;
+    line-height: 1.8;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+//Estilo de parrafo
+%parrafo {
+    font-size: 1.1rem;
+    line-height: 2;
+    margin-bottom: 10px;
+}
