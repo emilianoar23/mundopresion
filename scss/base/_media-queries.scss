@@ -1,0 +1,365 @@
+@media all and (min-width: 320px) and (max-width: 424px){
+    .logo {
+      margin-left: 20px;
+    }
+    .sobre-mi {
+      height: auto;
+      .row {
+        max-width: 423px;
+        h2 {
+          margin-bottom: 0;
+        }
+        p {
+          margin: 0.6rem 1rem;
+        }
+      }
+    }
+    .time-line {
+      h2 {
+        font-size: 1.8rem;
+        span {
+          width: 80%;
+        }
+      }
+      .container {
+        width: auto;
+        margin-left: 50px;
+        ul li {
+          width: auto;
+          padding: 1rem;
+        }
+      }
+    }
+    .skills {
+      flex-direction: column;
+      h2 {
+        font-size: 1.3rem;
+        text-align: center;
+        margin-bottom: 0;
+      }
+      .icons {
+        width: auto;
+        margin: 20px auto;
+        img {
+          width: 50px;
+          height: auto;
+          margin: 20px;
+        }
+      }
+    }
+    .contacto {
+      h4 {
+        font-size: 2.8rem;
+        text-align: center;
+      }
+      .form {
+        margin: 30px auto 70px;
+        height: 560px;
+        .g-recaptcha {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+    footer {
+      height: auto;
+      .footer-content {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        .social-media {
+          margin-bottom: 25px;
+        }
+        .contact-info {
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+  // Tablets
+  @media all and (min-width: 425px) and (max-width: 768px){
+    .logo {
+      margin-left: 15px;
+    }
+    .hero {
+      height: 100vh;
+    }
+    .sobre-mi {
+      height: auto;
+      .row {
+        max-width: 765px;
+        h2 {
+          margin-bottom: 0;
+        }
+        p {
+          margin: 0.6rem 1rem;
+        }
+      }
+    }
+    .time-line {
+      h2 {
+        font-size: 1.8rem;
+        span {
+          width: 40%;
+        }
+      }
+      .container {
+        width: auto;
+        margin-left: 60px;
+        ul li {
+          width: auto;
+          padding: 1rem;
+        }
+      }
+    }
+    .skills {
+      flex-direction: column;
+      margin-bottom: 2rem;
+      h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 0;
+      }
+      .icons {
+        width: auto;
+        margin: 20px auto;
+        img {
+          width: 60px;
+          height: auto;
+          margin: 20px;
+        }
+      }
+    }
+    .contacto {
+      h4 {
+        font-size: 4rem;
+        text-align: center;
+        margin-top: 4rem;
+      }
+      .form {
+        margin: 20px auto 70px;
+        height: 560px;
+      }
+    }
+    footer {
+      height: auto;
+      .footer-content {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        .social-media {
+          margin-bottom: 25px;
+        }
+        .contact-info {
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+  //toggle cerrado
+  @media only screen and (max-width: 766px) {
+    .open-nav {
+      max-height: 600px;
+      .mobile-toggle {
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+      }
+    }
+  }
+  nav {
+    ul {
+      list-style: none;
+      overflow: hidden;
+      text-align: right;
+      float: right;
+    }
+  }
+  @media only screen and (max-width: 766px) {
+    nav {
+      ul {
+        padding-top: 10px;
+        margin-bottom: 22px;
+        float: left;
+        text-align: center;
+        width: 100%;
+      }
+    }
+  }
+  nav {
+    ul {
+      li {
+        display: inline-block;
+        margin-left: 35px;
+        line-height: 1.5;
+      }
+    }
+  }
+  @media only screen and (max-width: 766px) {
+    nav {
+      ul {
+        li {
+          width: 100%;
+          padding: 7px 0;
+          margin: 0;
+        }
+      }
+    }
+    .mobile-toggle {
+      display: none;
+      cursor: pointer;
+      font-size: 20px;
+      position: absolute;
+      right: 22px;
+      top: 0;
+      width: 30px;
+      -webkit-transition: all 200ms ease-in;
+      -moz-transition: all 200ms ease-in;
+      transition: all 200ms ease-in;
+    }
+  }
+  @media only screen and (max-width: 766px) {
+    .mobile-toggle {
+      display: block;
+      span {
+        width: 30px;
+        height: 4px;
+        margin-bottom: 6px;
+        border-radius: 1000px;
+        background: $dt-color1;
+        display: block;
+      }
+    }
+  }
+  @media all and (min-width: 768px) and (max-width: 1024px){
+    .logo {
+      margin-left: 30px;
+    }
+    .hero {
+      height: 100vh;
+    }
+    .sobre-mi {
+      height: auto;
+      .row {
+        max-width: 1022px;
+        h2 {
+          margin-bottom: 0;
+        }
+        p {
+          margin: 1rem 1rem;
+        }
+      }
+    }
+    .time-line {
+      h2 {
+        font-size: 1.8rem;
+        span {
+          width: 30%;
+        }
+      }
+      .container {
+        width: auto;
+        margin-left: 70px;
+        ul li {
+          width: auto;
+          padding: 1rem;
+        }
+      }
+    }
+    .skills {
+      flex-direction: column;
+      margin-bottom: 3rem;
+      h2 {
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 0;
+      }
+      .icons {
+        width: auto;
+        margin: 40px auto;
+        img {
+          width: 60px;
+          height: auto;
+          margin: 40px;
+        }
+      }
+    }
+    .contacto {
+      h4 {
+        font-size: 3.2rem;
+        margin: 2rem;
+      }
+      .form {
+        margin: 20px auto 70px;
+        height: 560px;
+        width: 26rem;
+      }
+    }
+  }
+  @media all and (min-width: 768px) and (max-width: 890px){
+    .contacto {
+      flex-direction: column;
+      align-items: center;
+      .form {
+        margin: 20px auto 70px;
+        height: 560px;
+        width: 30rem;
+      }
+    }
+  }
+  @media all and (min-width: 1025px) and (max-width: 1440px){
+    .logo {
+      margin-left: 30px;
+    }
+    .hero {
+      height: 100vh;
+    }
+    .sobre-mi {
+      height: auto;
+      .row {
+        max-width: 1200px;
+        h2 {
+          margin-bottom: 0;
+        }
+        p {
+          margin: 1rem 1rem;
+        }
+      }
+    }
+    .time-line {
+      h2 {
+        font-size: 2rem;
+        span {
+          width: 30%;
+        }
+      }
+    }
+      .skills {
+        flex-direction: column;
+        margin-bottom: 3rem;
+        h2 {
+          font-size: 1.8rem;
+          text-align: center;
+          margin-bottom: 0;
+        }
+        .icons {
+          width: auto;
+          margin: 40px auto;
+          img {
+            width: 70px;
+            height: auto;
+            margin: 40px;
+          }
+        }
+      }
+      .contacto {
+        h4 {
+          font-size: 3.5rem;
+          margin: 2.5rem;
+        }
+        .form {
+          height: 560px;
+          width: 32rem;
+        }
+      }
+    }

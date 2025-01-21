@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
-.skills, .sobre-mi .row {
+.skills, .nuestros-servicios .row {
   width: 100%;
   max-width: 1250px;
   margin: 0 auto;
   position: relative;
   padding: 0 2%;
 }
-.content.skills, .sobre-mi .content.row {
+.content.skills, .nuestros-servicios .content.row {
   padding: 50px 2% 250px;
 }
 
-.portfolio h2, .time-line h2, .sobre-mi .row h2 {
+.portfolio h2, .time-line h2, .nuestros-servicios .row h2 {
   font-size: 2rem;
   line-height: 1.8;
   font-weight: 300;
@@ -18,7 +18,7 @@
   text-align: center;
 }
 
-.portfolio p, .sobre-mi .row p {
+.portfolio p, .nuestros-servicios .row p {
   font-size: 1.1rem;
   line-height: 2;
   margin-bottom: 10px;
@@ -43,18 +43,18 @@ body {
   background-color: #9D9B9D;
 }
 
-.skills, .sobre-mi .row {
+.skills, .nuestros-servicios .row {
   width: 100%;
   max-width: 1250px;
   margin: 0 auto;
   position: relative;
   padding: 0 2%;
 }
-.content.skills, .sobre-mi .content.row {
+.content.skills, .nuestros-servicios .content.row {
   padding: 50px 2% 250px;
 }
 
-.portfolio h2, .time-line h2, .sobre-mi .row h2 {
+.portfolio h2, .time-line h2, .nuestros-servicios .row h2 {
   font-size: 2rem;
   line-height: 1.8;
   font-weight: 300;
@@ -62,7 +62,7 @@ body {
   text-align: center;
 }
 
-.portfolio p, .sobre-mi .row p {
+.portfolio p, .nuestros-servicios .row p {
   font-size: 1.1rem;
   line-height: 2;
   margin-bottom: 10px;
@@ -105,7 +105,7 @@ header .header-container .logo:hover {
   color: #edc720;
 }
 header .header-container .logo img {
-  width: 25px;
+  width: 100px;
   margin-right: 8px;
 }
 header nav ul li {
@@ -122,25 +122,25 @@ header nav ul li a:hover {
 }
 
 .sticky {
-  background-color: #1e1e1f;
+  background-color: #1b00dd;
   opacity: 1;
   top: 0px;
   transition: all 0.3s ease;
   border-bottom: 1px solid #9c8416;
 }
 
-.skills, .sobre-mi .row {
+.skills, .nuestros-servicios .row {
   width: 100%;
   max-width: 1250px;
   margin: 0 auto;
   position: relative;
   padding: 0 2%;
 }
-.content.skills, .sobre-mi .content.row {
+.content.skills, .nuestros-servicios .content.row {
   padding: 50px 2% 250px;
 }
 
-.portfolio h2, .time-line h2, .sobre-mi .row h2 {
+.portfolio h2, .time-line h2, .nuestros-servicios .row h2 {
   font-size: 2rem;
   line-height: 1.8;
   font-weight: 300;
@@ -148,7 +148,7 @@ header nav ul li a:hover {
   text-align: center;
 }
 
-.portfolio p, .sobre-mi .row p {
+.portfolio p, .nuestros-servicios .row p {
   font-size: 1.1rem;
   line-height: 2;
   margin-bottom: 10px;
@@ -157,21 +157,15 @@ header nav ul li a:hover {
 .hero {
   position: relative;
   height: 100vh;
-  background-color: #1e1e1f;
-}
-.hero #particles-js {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../../assets/img/mundo-presion-hero-section.jpg);
+  background-size: cover;
 }
 .hero .content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
   color: #FAFBFB;
 }
 .hero .content h1 {
@@ -184,22 +178,22 @@ header nav ul li a:hover {
   font-weight: 200;
 }
 
-.sobre-mi {
+.nuestros-servicios {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 60vh;
   margin-bottom: 4rem;
 }
-.sobre-mi .row h2 {
+.nuestros-servicios .row h2 {
   color: #0e0d0d;
   padding: 30px 0;
 }
-.sobre-mi .row h2 span {
+.nuestros-servicios .row h2 span {
   color: #edc720;
   text-shadow: 1px 1px 1px #000;
 }
-.sobre-mi .row p {
+.nuestros-servicios .row p {
   color: #0e0d0d;
 }
 
@@ -474,18 +468,18 @@ header nav ul li a:hover {
     transform: translateY(20px);
   }
 }
-.sobre-mi .row, .skills {
+.nuestros-servicios .row, .skills {
   width: 100%;
   max-width: 1250px;
   margin: 0 auto;
   position: relative;
   padding: 0 2%;
 }
-.sobre-mi .content.row, .content.skills {
+.nuestros-servicios .content.row, .content.skills {
   padding: 50px 2% 250px;
 }
 
-.sobre-mi .row h2, .time-line h2, .portfolio h2 {
+.nuestros-servicios .row h2, .time-line h2, .portfolio h2 {
   font-size: 2rem;
   line-height: 1.8;
   font-weight: 300;
@@ -493,7 +487,7 @@ header nav ul li a:hover {
   text-align: center;
 }
 
-.sobre-mi .row p, .portfolio p {
+.nuestros-servicios .row p, .portfolio p {
   font-size: 1.1rem;
   line-height: 2;
   margin-bottom: 10px;
@@ -562,4 +556,342 @@ footer #copyright {
   color: #FAFBFB;
   font-size: 0.8rem;
   text-align: center;
+}
+
+@media all and (min-width: 320px) and (max-width: 424px) {
+  .logo {
+    margin-left: 20px;
+  }
+  .sobre-mi {
+    height: auto;
+  }
+  .sobre-mi .row {
+    max-width: 423px;
+  }
+  .sobre-mi .row h2 {
+    margin-bottom: 0;
+  }
+  .sobre-mi .row p {
+    margin: 0.6rem 1rem;
+  }
+  .time-line h2 {
+    font-size: 1.8rem;
+  }
+  .time-line h2 span {
+    width: 80%;
+  }
+  .time-line .container {
+    width: auto;
+    margin-left: 50px;
+  }
+  .time-line .container ul li {
+    width: auto;
+    padding: 1rem;
+  }
+  .skills {
+    flex-direction: column;
+  }
+  .skills h2 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .skills .icons {
+    width: auto;
+    margin: 20px auto;
+  }
+  .skills .icons img {
+    width: 50px;
+    height: auto;
+    margin: 20px;
+  }
+  .contacto h4 {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+  .contacto .form {
+    margin: 30px auto 70px;
+    height: 560px;
+  }
+  .contacto .form .g-recaptcha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+    height: auto;
+  }
+  footer .footer-content {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  footer .footer-content .social-media {
+    margin-bottom: 25px;
+  }
+  footer .footer-content .contact-info {
+    margin-bottom: 50px;
+  }
+}
+@media all and (min-width: 425px) and (max-width: 768px) {
+  .logo {
+    margin-left: 15px;
+  }
+  .hero {
+    height: 100vh;
+  }
+  .sobre-mi {
+    height: auto;
+  }
+  .sobre-mi .row {
+    max-width: 765px;
+  }
+  .sobre-mi .row h2 {
+    margin-bottom: 0;
+  }
+  .sobre-mi .row p {
+    margin: 0.6rem 1rem;
+  }
+  .time-line h2 {
+    font-size: 1.8rem;
+  }
+  .time-line h2 span {
+    width: 40%;
+  }
+  .time-line .container {
+    width: auto;
+    margin-left: 60px;
+  }
+  .time-line .container ul li {
+    width: auto;
+    padding: 1rem;
+  }
+  .skills {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  .skills h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .skills .icons {
+    width: auto;
+    margin: 20px auto;
+  }
+  .skills .icons img {
+    width: 60px;
+    height: auto;
+    margin: 20px;
+  }
+  .contacto h4 {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  .contacto .form {
+    margin: 20px auto 70px;
+    height: 560px;
+  }
+  footer {
+    height: auto;
+  }
+  footer .footer-content {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  footer .footer-content .social-media {
+    margin-bottom: 25px;
+  }
+  footer .footer-content .contact-info {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .open-nav {
+    max-height: 600px;
+  }
+  .open-nav .mobile-toggle {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+  }
+}
+nav ul {
+  list-style: none;
+  overflow: hidden;
+  text-align: right;
+  float: right;
+}
+
+@media only screen and (max-width: 766px) {
+  nav ul {
+    padding-top: 10px;
+    margin-bottom: 22px;
+    float: left;
+    text-align: center;
+    width: 100%;
+  }
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 35px;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 766px) {
+  nav ul li {
+    width: 100%;
+    padding: 7px 0;
+    margin: 0;
+  }
+  .mobile-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    right: 22px;
+    top: 0;
+    width: 30px;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .mobile-toggle {
+    display: block;
+  }
+  .mobile-toggle span {
+    width: 30px;
+    height: 4px;
+    margin-bottom: 6px;
+    border-radius: 1000px;
+    background: #edc720;
+    display: block;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+    margin-left: 30px;
+  }
+  .hero {
+    height: 100vh;
+  }
+  .sobre-mi {
+    height: auto;
+  }
+  .sobre-mi .row {
+    max-width: 1022px;
+  }
+  .sobre-mi .row h2 {
+    margin-bottom: 0;
+  }
+  .sobre-mi .row p {
+    margin: 1rem 1rem;
+  }
+  .time-line h2 {
+    font-size: 1.8rem;
+  }
+  .time-line h2 span {
+    width: 30%;
+  }
+  .time-line .container {
+    width: auto;
+    margin-left: 70px;
+  }
+  .time-line .container ul li {
+    width: auto;
+    padding: 1rem;
+  }
+  .skills {
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+  .skills h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .skills .icons {
+    width: auto;
+    margin: 40px auto;
+  }
+  .skills .icons img {
+    width: 60px;
+    height: auto;
+    margin: 40px;
+  }
+  .contacto h4 {
+    font-size: 3.2rem;
+    margin: 2rem;
+  }
+  .contacto .form {
+    margin: 20px auto 70px;
+    height: 560px;
+    width: 26rem;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 890px) {
+  .contacto {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacto .form {
+    margin: 20px auto 70px;
+    height: 560px;
+    width: 30rem;
+  }
+}
+@media all and (min-width: 1025px) and (max-width: 1440px) {
+  .logo {
+    margin-left: 30px;
+  }
+  .hero {
+    height: 100vh;
+  }
+  .sobre-mi {
+    height: auto;
+  }
+  .sobre-mi .row {
+    max-width: 1200px;
+  }
+  .sobre-mi .row h2 {
+    margin-bottom: 0;
+  }
+  .sobre-mi .row p {
+    margin: 1rem 1rem;
+  }
+  .time-line h2 {
+    font-size: 2rem;
+  }
+  .time-line h2 span {
+    width: 30%;
+  }
+  .skills {
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+  .skills h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .skills .icons {
+    width: auto;
+    margin: 40px auto;
+  }
+  .skills .icons img {
+    width: 70px;
+    height: auto;
+    margin: 40px;
+  }
+  .contacto h4 {
+    font-size: 3.5rem;
+    margin: 2.5rem;
+  }
+  .contacto .form {
+    height: 560px;
+    width: 32rem;
+  }
 }/*# sourceMappingURL=styles.css.map */

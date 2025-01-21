@@ -32,7 +32,7 @@ header {
                 color: $dt-color1;
             }
             img {
-                width: 25px;
+                width: 100px;
                 margin-right: 8px;
             }
         }
@@ -56,7 +56,7 @@ header {
 }
 
 .sticky {
-    background-color: $bg-hdr-ftr;
+    background-color: $bg-hdr;
     opacity: 1;
     top: 0px;
     transition: all 0.3s ease;
