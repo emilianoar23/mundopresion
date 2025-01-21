@@ -63,7 +63,7 @@
     justify-content: space-between;
     width: 100%;
     max-width: 1200px;
-    margin-top: 50px;
+    margin: 50px 0;
 
     .section-servicios {
       display: grid;
@@ -89,7 +89,7 @@
 
     .servicios-img {
       width: 50%;
-      margin-left: 30px;
+      margin-left: 50px;
       border-radius: 8px;
       object-fit: cover;
     }
@@ -196,7 +196,7 @@
         z-index: 3;
 
         .animated-text {
-          color: $dt-color1;
+          color: $bg-hdr;
           text-shadow: 1px 1px 2px $shadow-color;
         }
       }

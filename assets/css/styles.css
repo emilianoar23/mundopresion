@@ -197,7 +197,7 @@ header nav ul li a:hover {
   justify-content: space-between;
   width: 100%;
   max-width: 1200px;
-  margin-top: 50px;
+  margin: 50px 0;
 }
 .servicios .row .section-servicios {
   display: grid;
@@ -221,7 +221,7 @@ header nav ul li a:hover {
 }
 .servicios .row .servicios-img {
   width: 50%;
-  margin-left: 30px;
+  margin-left: 50px;
   border-radius: 8px;
   object-fit: cover;
 }
@@ -313,7 +313,7 @@ header nav ul li a:hover {
   z-index: 3;
 }
 .contacto h4 .animated-text-container:nth-child(3) .animated-text {
-  color: #edc720;
+  color: #1b00dd;
   text-shadow: 1px 1px 2px #000;
 }
 .contacto h4 .animated-text {
@@ -325,7 +325,7 @@ header nav ul li a:hover {
 .contacto .form {
   width: 540px;
   height: auto;
-  background: #1e1e1f;
+  background: #1b00dd;
   border-radius: 8px;
   box-shadow: 0 0 40px -10px #000;
   margin: calc(50vh - 220px) auto;
@@ -389,7 +389,7 @@ header nav ul li a:hover {
 }
 .contacto .form button:hover {
   background: #edc720;
-  border: 2px solid #1e1e1f;
+  border: 2px solid #1b00dd;
   color: #0e0d0d;
   font-weight: bold;
 }
