@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 .clientes .clientes-content {
   width: 100%;
@@ -227,8 +226,8 @@ header nav ul li a:hover {
 }
 
 .clientes {
-  position: relative; /* Necesario para que el pseudo-elemento funcione */
-  overflow: hidden; /* Asegura que el pseudo-elemento no se desborde */
+  position: relative;
+  overflow: hidden;
 }
 .clientes::before {
   content: "";
@@ -240,8 +239,8 @@ header nav ul li a:hover {
   background-image: url(../../assets/img/clientes-bg.jpg);
   background-size: cover;
   background-position: center;
-  opacity: 0.15; /* Baja la opacidad de la imagen */
-  z-index: -1; /* Coloca el pseudo-elemento detrás del contenido */
+  opacity: 0.15;
+  z-index: -1;
 }
 .clientes .clientes-content {
   height: 90vh;
@@ -282,45 +281,26 @@ header nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background-image: url(../../assets/img/contact-background.jpg);
-  background-size: cover;
+  justify-content: center;
+  margin: 0px;
 }
 .contacto h4 {
-  letter-spacing: 0.08rem;
   font-size: 4rem;
-  font-weight: 500;
-  margin: 20px auto;
-}
-.contacto h4 .animated-text-container {
-  position: relative;
-}
-.contacto h4 .animated-text-container:before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 3.5rem;
-  position: absolute;
-  z-index: 1;
-  top: 4.5rem;
-}
-.contacto h4 .animated-text-container:nth-child(1) {
-  z-index: 1;
-}
-.contacto h4 .animated-text-container:nth-child(2) {
-  z-index: 2;
-}
-.contacto h4 .animated-text-container:nth-child(3) {
-  z-index: 3;
-}
-.contacto h4 .animated-text-container:nth-child(3) .animated-text {
-  color: #1b00dd;
-  text-shadow: 1px 1px 2px #000;
+  font-weight: 300;
+  margin: 0 auto;
 }
 .contacto h4 .animated-text {
+  color: #000;
+  text-shadow: 1px 1px 2px #000;
+}
+.contacto h4 .animated-text-container {
+  margin: 20px;
+}
+.contacto .animated-text {
   transition: all 1s ease;
 }
-.contacto h4 .animated-text.concealed {
-  transform: translateY(4rem);
+.contacto .animated-text.concealed {
+  transform: translateY(1rem);
 }
 .contacto .form {
   width: 540px;
