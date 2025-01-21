@@ -22,9 +22,11 @@
     }
     button {
       margin: 20px 0;
-      padding: 15px 30px;
+      padding: 12px 30px;
       box-sizing:content-box;
       border-radius: 30px;
+      border: none;
+      outline: none;
       background-color: $bg-hdr;
       font-size: 1rem;
       font-weight: 400;
