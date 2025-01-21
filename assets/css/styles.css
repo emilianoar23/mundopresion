@@ -237,6 +237,9 @@ header nav ul li a:hover {
   height: auto;
   margin: 30px;
 }
+.clientes h3 {
+  text-align: center;
+}
 
 .contacto {
   display: flex;
