@@ -539,11 +539,8 @@ footer #copyright {
   .servicios {
     height: auto;
     align-items: flex-start;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.638), rgba(255, 255, 255, 0.6)), url("../../assets/img/trabajador-obra-casco.jpg");
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    border-radius: 0;
+    background: rgb(237, 237, 237);
+    background: linear-gradient(357deg, rgb(237, 237, 237) 21%, rgba(185, 183, 199, 0.1601015406) 100%);
   }
   .servicios h2 {
     align-self: center;

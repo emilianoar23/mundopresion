@@ -28,11 +28,8 @@
   .servicios {
     height: auto;
     align-items: flex-start;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.638), rgba(255, 255, 255, 0.6)), url('../../assets/img/trabajador-obra-casco.jpg');
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    border-radius: 0;
+    background: rgb(237,237,237);
+    background: linear-gradient(357deg, rgba(237,237,237,1) 21%, rgba(185,183,199,0.16010154061624648) 100%);
     h2 {
       align-self: center;
       margin-top: 20px;
