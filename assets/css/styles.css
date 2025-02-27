@@ -585,18 +585,45 @@ footer #copyright {
     font-size: 1.2rem;
     margin: 25px 0 60px;
   }
-  .contacto h4 {
-    font-size: 2.8rem;
-    text-align: center;
-  }
-  .contacto .form {
-    margin: 30px auto 70px;
-    height: 560px;
-  }
-  .contacto .form .g-recaptcha {
-    display: flex;
+  .contact {
     justify-content: center;
-    align-items: center;
+  }
+  .contact .contacto {
+    height: auto;
+    padding: 20px;
+    margin: 2px;
+  }
+  .contact .contacto .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .contact .contacto .contact-wrapper .contact-info {
+    width: 100%;
+    height: auto;
+    padding: 1em;
+  }
+  .contact .contacto .contact-wrapper .contact-info h4 {
+    font-size: 1.9rem;
+    margin-bottom: 10px;
+  }
+  .contact .contacto .contact-wrapper .contact-form {
+    width: 100%;
+    padding: 1em;
+  }
+  .contact .contacto .contact-wrapper .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .contact .contacto .contact-wrapper .contact-form form .field {
+    width: 100%;
+  }
+  .contact .contacto .contact-wrapper .contact-form form #button {
+    padding: 15px;
+    font-size: 0.8rem;
+    align-self: center;
+    width: 70%;
   }
   footer {
     height: auto;
