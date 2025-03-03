@@ -569,9 +569,6 @@ footer #copyright {
   .servicios .row .servicios-img {
     display: none;
   }
-  .clientes {
-    text-align: center;
-  }
   .clientes .clientes-content {
     height: auto;
   }
@@ -626,7 +623,7 @@ footer #copyright {
     padding: 15px;
     font-size: 0.8rem;
     align-self: center;
-    width: 80%;
+    width: 70%;
   }
   footer {
     height: auto;
@@ -650,6 +647,14 @@ footer #copyright {
   .hero {
     height: 100vh;
   }
+  .hero .content {
+    text-align: left;
+    width: 80%;
+  }
+  .hero .content h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
   .servicios {
     height: auto;
     align-items: flex-start;
@@ -659,7 +664,7 @@ footer #copyright {
   .servicios h2 {
     align-self: center;
     margin-top: 20px;
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   .servicios .row {
     display: flex;
@@ -667,8 +672,11 @@ footer #copyright {
     align-items: center;
     height: auto;
     width: 100%;
-    margin: 0;
+    margin: 10px 0 30px;
     max-width: 100%;
+  }
+  .servicios .row .section-servicios .gridItem .servicios-ico {
+    width: 15%;
   }
   .servicios .row p {
     margin: 0.6rem 1rem;
@@ -811,13 +819,7 @@ nav ul li {
     display: block;
   }
 }
-@media all and (min-width: 768px) and (max-width: 1024px) {
-  .logo {
-    margin-left: 30px;
-  }
-  .hero {
-    height: 100vh;
-  }
+@media all and (min-width: 769px) and (max-width: 970px) {
   .servicios {
     height: auto;
     align-items: flex-start;
@@ -838,28 +840,15 @@ nav ul li {
     margin: 0;
     max-width: 100%;
   }
+  .servicios .row .section-servicios .gridItem .servicios-ico {
+    width: 15%;
+  }
   .servicios .row p {
     margin: 0.6rem 1rem;
     font-size: 1rem;
   }
   .servicios .row .servicios-img {
-    display: none;
-  }
-  .clientes .clientes-content {
-    height: auto;
-  }
-  .clientes .clientes-content h2 {
-    font-size: 1.8rem;
-    padding: 0;
-    margin: 40px 0 0;
-  }
-  .clientes .clientes-content .icons img {
-    width: 23%;
-    margin: 15px;
-  }
-  .clientes .clientes-content h3 {
-    font-size: 1.2rem;
-    margin: 25px 0 60px;
+    margin: 40px 0;
   }
   .contact {
     justify-content: center;
@@ -902,24 +891,7 @@ nav ul li {
     width: 70%;
   }
 }
-@media all and (min-width: 768px) and (max-width: 890px) {
-  .contacto {
-    flex-direction: column;
-    align-items: center;
-  }
-  .contacto .form {
-    margin: 20px auto 70px;
-    height: 560px;
-    width: 30rem;
-  }
-}
-@media all and (min-width: 1025px) and (max-width: 1440px) {
-  .logo {
-    margin-left: 30px;
-  }
-  .hero {
-    height: 100vh;
-  }
+@media all and (min-width: 971px) and (max-width: 1440px) {
   .servicios {
     height: auto;
     align-items: flex-start;
@@ -931,12 +903,19 @@ nav ul li {
     margin-top: 20px;
     font-size: 1.8rem;
   }
-  .contacto h4 {
-    font-size: 3.5rem;
-    margin: 2.5rem;
+  .servicios .row {
+    height: auto;
+    width: 100%;
+    margin: 30px auto;
   }
-  .contacto .form {
-    height: 560px;
-    width: 32rem;
+  .servicios .row .section-servicios .gridItem .servicios-ico {
+    width: 15% !important;
+  }
+  .servicios .row p {
+    margin: 0.6rem 1rem;
+    font-size: 1rem;
+  }
+  .servicios .row .servicios-img {
+    margin: 0px 20px !important;
   }
 }/*# sourceMappingURL=styles.css.map */
