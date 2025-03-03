@@ -1,4 +1,5 @@
-@media all and (min-width: 320px) and (max-width: 424px) {
+/* Rango de 320px a 424px */
+@media (max-width: 424px) {
   .hero {
     display: flex;
     justify-content: center;
@@ -34,7 +35,7 @@
     height: auto;
     align-items: flex-start;
     background: rgb(237, 237, 237);
-    background: linear-gradient(357deg, rgba(237, 237, 237, 1) 21%, rgba(185, 183, 199, 0.16010154061624648) 100%);
+    background: linear-gradient(357deg, rgba(237, 237, 237, 1) 21%, rgba(185, 183, 199, 0.1601) 100%);
 
     h2 {
       align-self: center;
@@ -152,7 +153,8 @@
   }
 }
 
-@media all and (min-width: 425px) and (max-width: 768px) {
+/* Rango de 425px a 768px */
+@media (max-width: 768px) {
   .logo {
     margin-left: 15px;
   }
@@ -175,7 +177,7 @@
     height: auto;
     align-items: flex-start;
     background: rgb(237, 237, 237);
-    background: linear-gradient(357deg, rgba(237, 237, 237, 1) 21%, rgba(185, 183, 199, 0.16010154061624648) 100%);
+    background: linear-gradient(357deg, rgba(237, 237, 237, 1) 21%, rgba(185, 183, 199, 0.1601) 100%);
 
     h2 {
       align-self: center;
@@ -191,13 +193,7 @@
       width: 100%;
       margin: 10px 0 30px;
       max-width: 100%;
-      .section-servicios {
-      .gridItem {
-        .servicios-ico {
-          width: 15%;
-        }
-      }
-    }
+
       p {
         margin: 0.6rem 1rem;
         font-size: 1rem;
@@ -299,6 +295,124 @@
   }
 }
 
+/* Rango de 766px a 970px */
+@media (max-width: 970px) {
+  .servicios {
+    height: auto;
+    align-items: flex-start;
+    background: rgb(237, 237, 237);
+    background: linear-gradient(357deg, rgba(237, 237, 237, 1) 21%, rgba(185, 183, 199, 0.1601) 100%);
+
+    h2 {
+      align-self: center;
+      margin-top: 20px;
+      font-size: 1.8rem;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      width: 100%;
+      margin: 0;
+      max-width: 100%;
+
+      p {
+        margin: 0.6rem 1rem;
+        font-size: 1rem;
+      }
+
+      .servicios-img {
+        margin: 40px 0;
+      }
+    }
+  }
+
+  .contact {
+    justify-content: center;
+
+    .contacto {
+      height: auto;
+      padding: 20px;
+      margin: 2px;
+
+      .contact-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+
+        .contact-info {
+          width: 100%;
+          height: auto;
+          padding: 1em;
+
+          h4 {
+            font-size: 1.9rem;
+            margin-bottom: 10px;
+          }
+        }
+
+        .contact-form {
+          width: 100%;
+          padding: 1em;
+
+          form {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+
+            .field {
+              width: 100%;
+            }
+
+            #button {
+              padding: 15px;
+              font-size: 0.8rem;
+              align-self: center;
+              width: 70%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Rango de 971px a 1440px */
+@media (max-width: 1440px) {
+  .servicios {
+    height: auto;
+    align-items: flex-start;
+    background: rgb(237, 237, 237);
+    background: linear-gradient(357deg, rgba(237, 237, 237, 1) 21%, rgba(185, 183, 199, 0.1601) 100%);
+
+    h2 {
+      align-self: center;
+      margin-top: 20px;
+      font-size: 1.8rem;
+    }
+
+    .row {
+      height: auto;
+      width: 100%;
+      margin: 30px auto;
+
+      p {
+        margin: 0.6rem 1rem;
+        font-size: 1rem;
+      }
+
+      .servicios-img {
+        margin: 0px 20px !important;
+      }
+    }
+  }
+}
+
+
+
+
 @media only screen and (max-width: 766px) {
   .open-nav {
     max-height: 600px;
@@ -377,136 +491,6 @@ nav {
       border-radius: 1000px;
       background: $font-white;
       display: block;
-    }
-  }
-}
-
-@media all and (min-width: 769px) and (max-width: 970px) {
-  .servicios {
-    height: auto;
-    align-items: flex-start;
-    background: rgb(237, 237, 237);
-    background: linear-gradient(357deg, rgba(237, 237, 237, 1) 21%, rgba(185, 183, 199, 0.16010154061624648) 100%);
-
-    h2 {
-      align-self: center;
-      margin-top: 20px;
-      font-size: 1.8rem;
-    }
-
-    .row {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      height: auto;
-      width: 100%;
-      margin: 0;
-      max-width: 100%;
-
-      .section-servicios {
-
-
-        .gridItem {
-          .servicios-ico {
-            width: 15%;
-          }
-        }
-      }
-
-      p {
-        margin: 0.6rem 1rem;
-        font-size: 1rem;
-      }
-
-      .servicios-img {
-        margin: 40px 0;
-      }
-    }
-  }
-
-  .contact {
-    justify-content: center;
-
-    .contacto {
-      height: auto;
-      padding: 20px;
-      margin: 2px;
-
-      .contact-wrapper {
-        display: flex;
-        flex-direction: column;
-        gap: 1em;
-
-        .contact-info {
-          width: 100%;
-          height: auto;
-          padding: 1em;
-
-          h4 {
-            font-size: 1.9rem;
-            margin-bottom: 10px;
-          }
-        }
-
-        .contact-form {
-          width: 100%;
-          padding: 1em;
-
-          form {
-            display: flex;
-            flex-direction: column;
-            gap: 1em;
-
-            .field {
-              width: 100%;
-            }
-
-            #button {
-              padding: 15px;
-              font-size: 0.8rem;
-              align-self: center;
-              width: 70%;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media all and (min-width: 971px) and (max-width: 1440px) {
-  .servicios {
-    height: auto;
-    align-items: flex-start;
-    background: rgb(237, 237, 237);
-    background: linear-gradient(357deg, rgba(237, 237, 237, 1) 21%, rgba(185, 183, 199, 0.16010154061624648) 100%);
-
-    h2 {
-      align-self: center;
-      margin-top: 20px;
-      font-size: 1.8rem;
-    }
-
-    .row {
-      height: auto;
-      width: 100%;
-      margin: 30px auto;
-      .section-servicios {
-        .gridItem {
-          .servicios-ico {
-            width: 15% !important;
-          }
-        }
-      }
-
-      p {
-        margin: 0.6rem 1rem;
-        font-size: 1rem;
-      }
-
-      .servicios-img {
-        margin: 0px 20px !important;
-      }
     }
   }
 }
