@@ -32,7 +32,7 @@
       border-radius: 30px;
       border: none;
       outline: none;
-      background-color: $bg-hdr;
+      background-color: $dt-color2;
       font-size: 1rem;
       font-weight: 400;
       color: $font-white;
@@ -233,7 +233,7 @@
             background: none;
             outline: 0;
             color: #fff;
-            border-bottom: 1px solid $bg-hdr;
+            border-bottom: 1px solid $dt-color2;
           }
           textarea {
             resize: none;
@@ -250,9 +250,9 @@
         #button {
           grid-column: span 2;
           padding: .7em;
-          background: $bg-hdr;
+          background: $dt-color2;
           border: none;
-          color: #fff;
+          color: $font-white;
           font-size: 1.2em;
           text-transform: uppercase;
           cursor: pointer;
@@ -263,7 +263,7 @@
 
           &:hover,
           &:focus {
-            background: #5730d6;
+            background: $dt-color3;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
             outline: 0;
           }
