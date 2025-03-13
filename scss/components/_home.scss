@@ -1,103 +1,95 @@
 @import"../base/variables";
 
 .hero {
-  position: relative;
-  height: 100vh;
   width: 100%;
+  height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../../assets/img/mundo-presion-hero-section.jpg);
   background-size: cover;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $font-white;
+  padding: 0 20px;
   .content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: left;
-    color: $font-white;
-
+    max-width: 800px;
     h1 {
-      font-size: 3.5rem;
+      font-size: 2.5rem;
       font-weight: 200;
+      margin-bottom: 20px;
     }
-
     p {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       font-weight: 200;
+      margin-bottom: 30px;
     }
-
     button {
-      margin: 20px 0;
-      padding: 12px 30px;
-      box-sizing: content-box;
-      border-radius: 30px;
-      border: none;
-      outline: none;
-      background-color: $dt-color2;
+      display: inline-block;
+      padding: 12px 25px;
       font-size: 1rem;
-      font-weight: 400;
       color: $font-white;
+      background: $dt-color2;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s;
+      &:hover {
+        background: $dt-color3;
+      }
     }
   }
 }
 
 .servicios {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  height: 100vh;
-  width: 100%;
+  padding: 60px 20px;
+  background-color: #f8f9fa;
   text-align: center;
 
   h2 {
     @extend %titulos;
-    color: $font-dark;
-    margin: 10px;
-
-    span {
-      color: $dt-color1;
-      text-shadow: 1px 1px 1px $shadow-color;
-    }
   }
 
   .row {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
     max-width: 1200px;
-    margin: 50px 0;
+    margin: 0 auto;
+    gap: 20px;
 
     .section-servicios {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-      gap: 30px 30px;
-      margin: 10px;
-      width: 60%;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      flex: 1;
 
       .gridItem {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        margin: 10px;
-        border-radius: 4px;
-        transition: transform 0.3s ease-in-out;
-        text-align: left;
+        background: $font-white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        text-align: center;
+        &:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
 
         .servicios-ico {
-          width: 20%;
-          margin-right: 20px;
+          max-width: 80px;
+          margin-bottom: 15px;
+        }
+
+        p {
+          font-size: 1rem;
+          color: $font-dark;
         }
       }
     }
 
     .servicios-img {
-      width: 50%;
-      margin-left: 50px;
-      border-radius: 8px;
-      object-fit: cover;
+      display: none;
     }
   }
 }
