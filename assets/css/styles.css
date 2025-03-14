@@ -223,6 +223,7 @@ header nav ul li a:hover {
 }
 
 .clientes {
+  height: 140vh;
   position: relative;
   overflow: hidden;
 }
@@ -244,14 +245,12 @@ header nav ul li a:hover {
   width: 100%;
   display: flex;
   flex-direction: column;
+  padding: 20px;
 }
 .clientes .clientes-content h2 {
   color: #0e0d0d;
   padding: 30px 0;
-}
-.clientes .clientes-content h2 span {
-  color: #edc720;
-  text-shadow: 1px 1px 1px #000;
+  text-align: center;
 }
 .clientes .clientes-content .icons {
   display: flex;
@@ -259,85 +258,70 @@ header nav ul li a:hover {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: auto;
   margin: 10px auto;
 }
 .clientes .clientes-content .icons img {
-  width: 15%;
+  width: 30%;
   height: auto;
-  margin: 30px;
+  margin: 20px;
 }
 .clientes .clientes-content h3 {
   text-align: center;
   font-size: 1.5rem;
   font-style: italic;
-  font-weight: 400;
+  font-weight: 300;
+  padding: 15px;
 }
 
 .contact {
-  height: 100vh;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  margin: auto;
-  background-color: #ffffff;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='800' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='88' y1='88' x2='0' y2='0'%3E%3Cstop offset='0' stop-color='%230000ba'/%3E%3Cstop offset='1' stop-color='%230000d4'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='75' y1='76' x2='168' y2='160'%3E%3Cstop offset='0' stop-color='%23868686'/%3E%3Cstop offset='0.09' stop-color='%23ababab'/%3E%3Cstop offset='0.18' stop-color='%23c4c4c4'/%3E%3Cstop offset='0.31' stop-color='%23d7d7d7'/%3E%3Cstop offset='0.44' stop-color='%23e5e5e5'/%3E%3Cstop offset='0.59' stop-color='%23f1f1f1'/%3E%3Cstop offset='0.75' stop-color='%23f9f9f9'/%3E%3Cstop offset='1' stop-color='%23FFFFFF'/%3E%3C/linearGradient%3E%3Cfilter id='c' x='0' y='0' width='200%25' height='200%25'%3E%3CfeGaussianBlur in='SourceGraphic' stdDeviation='12' /%3E%3C/filter%3E%3C/defs%3E%3Cpolygon fill='url(%23a)' points='0 174 0 0 174 0'/%3E%3Cpath fill='%23000' fill-opacity='.5' filter='url(%23c)' d='M121.8 174C59.2 153.1 0 174 0 174s63.5-73.8 87-94c24.4-20.9 87-80 87-80S107.9 104.4 121.8 174z'/%3E%3Cpath fill='url(%23b)' d='M142.7 142.7C59.2 142.7 0 174 0 174s42-66.3 74.9-99.3S174 0 174 0S142.7 62.6 142.7 142.7z'/%3E%3C/svg%3E");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: top left;
+  height: auto;
+  justify-content: center;
+  padding: 20px;
 }
-
-.contacto {
-  height: 65%;
-  width: 80%;
-  max-width: 90%;
-  padding: 30px;
-  margin: auto;
+.contact .contacto {
+  height: auto;
+  padding: 20px;
+  margin: 2px;
   background: rgba(34, 34, 34, 0.9254901961);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
-.contacto .contact-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  gap: 2em;
-  align-items: center;
-}
-.contacto .contact-wrapper .contact-info {
+.contact .contacto .contact-wrapper {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 55vh;
-  border-radius: 8px;
-  padding: 1.5em;
-}
-.contacto .contact-wrapper .contact-info h4 {
-  font-size: 2.8rem;
-  color: #ccc;
-  text-align: center;
-  margin: 0;
-}
-.contacto .contact-wrapper .contact-form {
-  border-radius: 8px;
-  padding: 2em;
-}
-.contacto .contact-wrapper .contact-form form {
-  max-width: 600px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  flex-direction: column;
   gap: 1.5em;
 }
-.contacto .contact-wrapper .contact-form form .field {
+.contact .contacto .contact-wrapper .contact-info {
+  width: 100%;
+  height: auto;
+  padding: 1em;
+  text-align: center;
+}
+.contact .contacto .contact-wrapper .contact-info h4 {
+  font-size: 2rem;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+.contact .contacto .contact-wrapper .contact-form {
+  width: 100%;
+  padding: 1em;
+}
+.contact .contacto .contact-wrapper .contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+.contact .contacto .contact-wrapper .contact-form form .field {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
-.contacto .contact-wrapper .contact-form form .field label {
+.contact .contacto .contact-wrapper .contact-form form .field label {
   font-size: 14px;
   color: #ccc;
 }
-.contacto .contact-wrapper .contact-form form .field input,
-.contacto .contact-wrapper .contact-form form .field textarea {
+.contact .contacto .contact-wrapper .contact-form form .field input,
+.contact .contacto .contact-wrapper .contact-form form .field textarea {
   padding: 0.7em;
   border: none;
   background: none;
@@ -345,35 +329,30 @@ header nav ul li a:hover {
   color: #fff;
   border-bottom: 1px solid #1b00dd;
 }
-.contacto .contact-wrapper .contact-form form .field textarea {
+.contact .contacto .contact-wrapper .contact-form form .field textarea {
   resize: none;
 }
-.contacto .contact-wrapper .contact-form form .field:nth-child(5) {
-  grid-column: span 2;
-}
-.contacto .contact-wrapper .contact-form form .field:nth-child(6) {
-  grid-column: span 2;
-}
-.contacto .contact-wrapper .contact-form form #button {
-  grid-column: span 2;
-  padding: 0.7em;
+.contact #button {
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 100;
+  align-self: center;
+  width: 80%;
   background: #1b00dd;
   border: none;
-  color: #FAFBFB;
-  font-size: 1.2em;
-  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
   cursor: pointer;
-  width: 100%;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
-.contacto .contact-wrapper .contact-form form #button:hover, .contacto .contact-wrapper .contact-form form #button:focus {
+.contact #button:hover, .contact #button:focus {
   background: #5730d6;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   outline: 0;
 }
-.contacto .alerta-envio {
+.contact .alerta-envio {
   display: none;
   background: #28a745;
   color: #fff;
@@ -384,10 +363,10 @@ header nav ul li a:hover {
   animation: popup-alert 3s forwards;
   animation: popup-alert 3s forwards;
 }
-.contacto .alerta-envio.error {
+.contact .alerta-envio.error {
   background: #dc3545;
 }
-.contacto .alerta-envio .mensaje-popup p {
+.contact .alerta-envio .mensaje-popup p {
   margin: 0;
 }
 @keyframes popup-alert {
@@ -594,5 +573,54 @@ nav ul li {
   }
   .servicios-img {
     max-width: 300px;
+  }
+}
+@media (max-width: 480px) {
+  .clientes-content {
+    height: auto;
+    padding: 10px;
+  }
+  h2 {
+    font-size: 1.2rem;
+    padding: 20px 0;
+  }
+  .icons img {
+    width: 30%;
+    margin: 10px;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 768px) {
+  .clientes-content {
+    padding: 15px;
+  }
+  h2 {
+    font-size: 1.4rem;
+    padding: 25px 0;
+  }
+  .icons img {
+    width: 20%;
+    margin: 20px;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 1024px) {
+  .clientes-content {
+    padding: 20px;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  .icons img {
+    width: 18%;
+    margin: 20px;
+  }
+  h3 {
+    font-size: 1.4rem;
+    padding: 15px;
   }
 }/*# sourceMappingURL=styles.css.map */
