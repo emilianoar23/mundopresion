@@ -212,8 +212,9 @@ header nav ul li a:hover {
   max-width: 80px;
   margin-bottom: 15px;
 }
-.servicios .row .section-servicios .gridItem p {
+.servicios .row .section-servicios .gridItem h3 {
   font-size: 1rem;
+  font-weight: 400;
   color: #0e0d0d;
 }
 .servicios .row .servicios-img {
@@ -221,7 +222,8 @@ header nav ul li a:hover {
 }
 
 .clientes {
-  height: 140vh;
+  height: 105vh;
+  padding-top: 40px;
   position: relative;
   overflow: hidden;
 }
