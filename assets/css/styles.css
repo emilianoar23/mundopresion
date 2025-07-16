@@ -155,12 +155,10 @@ header nav ul li a:hover {
 .hero .content h1 {
   font-size: 2.5rem;
   font-weight: 200;
-  margin-bottom: 20px;
 }
-.hero .content p {
+.hero .content h2 {
   font-size: 1.2rem;
   font-weight: 200;
-  margin-bottom: 30px;
 }
 .hero .content button {
   display: inline-block;
@@ -169,7 +167,7 @@ header nav ul li a:hover {
   color: #FAFBFB;
   background: #1b00dd;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   cursor: pointer;
   text-decoration: none;
   transition: background 0.3s;
