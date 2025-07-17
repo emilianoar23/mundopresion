@@ -80,17 +80,52 @@ nav {
   }
 }
 
+@media all and (min-width: 375px) and (max-width: 824px) {
+  .clientes {
+    height: 115vh;
+  }
+}
+
+@media all and (min-width: 425px) and (max-width: 824px) {
+  .clientes {
+    height: 120vh;
+  }
+}
+
 @media (max-width: 768px) {
   .hero-content {
     h1 {
       font-size: 2rem;
     }
-    p {
+    h2 {
       font-size: 1rem;
     }
   }
-}
 
+  .clientes {
+    height: 150vh;
+    .clientes-content {
+      .icons {
+        width: 80%;
+      }
+    }
+  }
+  
+  .contact {
+    height: 110vh;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    .contacto {
+      align-items: center;
+      .contact-wrapper .contact-info {
+        h4 {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}
 @media (max-width: 1024px) {
   .row {
     flex-direction: column;

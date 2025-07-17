@@ -563,12 +563,40 @@ nav ul li {
     display: block;
   }
 }
+@media all and (min-width: 375px) and (max-width: 824px) {
+  .clientes {
+    height: 115vh;
+  }
+}
+@media all and (min-width: 425px) and (max-width: 824px) {
+  .clientes {
+    height: 120vh;
+  }
+}
 @media (max-width: 768px) {
   .hero-content h1 {
     font-size: 2rem;
   }
-  .hero-content p {
+  .hero-content h2 {
     font-size: 1rem;
+  }
+  .clientes {
+    height: 150vh;
+  }
+  .clientes .clientes-content .icons {
+    width: 80%;
+  }
+  .contact {
+    height: 110vh;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+  }
+  .contact .contacto {
+    align-items: center;
+  }
+  .contact .contacto .contact-wrapper .contact-info h4 {
+    font-size: 2rem;
   }
 }
 @media (max-width: 1024px) {
