@@ -222,7 +222,7 @@ header nav ul li a:hover {
 }
 
 .clientes {
-  height: 105vh;
+  height: 110vh;
   padding-top: 40px;
   position: relative;
   overflow: hidden;
@@ -303,7 +303,7 @@ header nav ul li a:hover {
   text-align: center;
 }
 .contact .contacto .contact-wrapper .contact-info h4 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: #ccc;
   margin-bottom: 10px;
 }
