@@ -3,7 +3,7 @@
 .hero {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../../assets/img/mundo-presion-hero-section.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../../assets/img/mundo-presion-hero-section.webp);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -11,9 +11,9 @@
   color: $font-white;
   padding: 0 20px;
   .content {
-    max-width: 800px;
+    padding: 20px;
     h1 {
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-weight: 200;
     }
     h2 {
@@ -65,6 +65,7 @@
       .gridItem {
         background: $font-white;
         padding: 20px;
+        margin: 0 20px;
         border-radius: 10px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -105,7 +106,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../../assets/img/clientes-bg.jpg);
+    background-image: url(../../assets/img/clientes-bg.webp);
     background-size: cover;
     background-position: center;
     opacity: 0.15;
@@ -151,7 +152,6 @@
     }
   }
 }
-
 
 .contact {
   height: auto;

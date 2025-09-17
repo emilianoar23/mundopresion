@@ -30,6 +30,7 @@
 body {
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   background-color: #ececec;
 }
@@ -141,7 +142,7 @@ header nav ul li a:hover {
 .hero {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../../assets/img/mundo-presion-hero-section.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../../assets/img/mundo-presion-hero-section.webp);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -150,10 +151,10 @@ header nav ul li a:hover {
   padding: 0 20px;
 }
 .hero .content {
-  max-width: 800px;
+  padding: 20px;
 }
 .hero .content h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 200;
 }
 .hero .content h2 {
@@ -199,6 +200,7 @@ header nav ul li a:hover {
 .servicios .row .section-servicios .gridItem {
   background: #FAFBFB;
   padding: 20px;
+  margin: 0 20px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -234,7 +236,7 @@ header nav ul li a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../../assets/img/clientes-bg.jpg);
+  background-image: url(../../assets/img/clientes-bg.webp);
   background-size: cover;
   background-position: center;
   opacity: 0.15;
@@ -563,28 +565,26 @@ nav ul li {
     display: block;
   }
 }
-@media all and (min-width: 375px) and (max-width: 824px) {
+@media all and (min-width: 320px) and (max-width: 425px) {
+  .hero .content h1 {
+    margin-bottom: 10px;
+  }
+  .hero .content h2 {
+    margin-bottom: 10px;
+  }
   .clientes {
-    height: 115vh;
+    height: 160vh;
   }
 }
-@media all and (min-width: 425px) and (max-width: 824px) {
-  .clientes {
-    height: 120vh;
+@media only screen and (max-width: 768px) {
+  .hero .content {
+    padding: 30px;
   }
-}
-@media (max-width: 768px) {
-  .hero-content h1 {
-    font-size: 2rem;
+  .hero .content h1 {
+    font-size: 2.5rem;
   }
-  .hero-content h2 {
-    font-size: 1rem;
-  }
-  .clientes {
-    height: 150vh;
-  }
-  .clientes .clientes-content .icons {
-    width: 80%;
+  .hero .content h2 {
+    font-size: 1.2rem;
   }
   .contact {
     height: 110vh;
@@ -599,7 +599,26 @@ nav ul li {
     font-size: 2rem;
   }
 }
-@media (max-width: 1024px) {
+@media only screen and (min-width: 824px) {
+  .hero .content {
+    padding: 70px;
+  }
+  .hero .content h1 {
+    font-size: 2.5rem;
+    margin: 5px;
+  }
+  .hero .content h2 {
+    font-size: 1.2rem;
+    margin: 15px;
+  }
+  .clientes {
+    height: 1000%;
+  }
+  .clientes .clientes-content .icons {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 1024px) {
   .row {
     flex-direction: column;
     align-items: center;
@@ -611,51 +630,48 @@ nav ul li {
     max-width: 300px;
   }
 }
-@media (max-width: 480px) {
-  .clientes-content {
-    height: auto;
-    padding: 10px;
+@media only screen and (min-width: 1025px) {
+  .hero .content {
+    padding: 100px;
   }
-  h2 {
-    font-size: 1.2rem;
-    padding: 20px 0;
+  .hero .content h1 {
+    font-size: 3.5rem;
   }
-  .icons img {
-    width: 30%;
-    margin: 10px;
-  }
-  h3 {
-    font-size: 1.2rem;
-  }
-}
-@media (max-width: 768px) {
-  .clientes-content {
-    padding: 15px;
-  }
-  h2 {
-    font-size: 1.4rem;
-    padding: 25px 0;
-  }
-  .icons img {
-    width: 20%;
-    margin: 20px;
-  }
-  h3 {
-    font-size: 1.3rem;
-  }
-}
-@media (max-width: 1024px) {
-  .clientes-content {
-    padding: 20px;
-  }
-  h2 {
+  .hero .content h2 {
     font-size: 1.6rem;
   }
-  .icons img {
-    width: 18%;
-    margin: 20px;
+  .clientes {
+    height: auto;
   }
-  h3 {
-    font-size: 1.4rem;
+  .clientes .clientes-content .icons {
+    width: 25%;
+  }
+  .section-servicios {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .contact {
+    padding: 100px 60px;
+  }
+  .contact .contact-wrapper .contact-info h4 {
+    font-size: 2.2rem;
+  }
+}
+@media only screen and (min-width: 1441px) {
+  .container,
+  .content {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .hero .content h1 {
+    font-size: 4rem;
+  }
+  .hero .content h2 {
+    font-size: 2rem;
+  }
+  .clientes .clientes-content .icons {
+    width: 15%;
+  }
+  .servicios-img {
+    max-width: 350px;
   }
 }/*# sourceMappingURL=styles.css.map */
