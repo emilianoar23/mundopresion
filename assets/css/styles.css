@@ -573,7 +573,11 @@ nav ul li {
     margin-bottom: 10px;
   }
   .clientes {
-    height: 160vh;
+    height: 150vh;
+  }
+  .clientes .clientes-content h2 {
+    margin: 0 25px;
+    padding: 0;
   }
 }
 @media only screen and (max-width: 768px) {

@@ -81,17 +81,25 @@ nav {
 }
 
 @media all and (min-width: 320px) and (max-width: 425px) {
-  .hero .content {
+.hero .content {
     h1 {
       margin-bottom: 10px;
     }
+
     h2 {
       margin-bottom: 10px;
     }
   }
-    .clientes {
-    height: 160vh;
+
+  .clientes {
+    height: 150vh;
+    .clientes-content {
+      h2 {
+        margin: 0 25px;
+        padding: 0;
+      }
     }
+  }
 }
 
 @media only screen and (max-width: 768px) {
