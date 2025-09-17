@@ -573,22 +573,24 @@ nav ul li {
     margin-bottom: 10px;
   }
   .clientes {
-    height: 150vh;
+    height: 158vh;
   }
   .clientes .clientes-content h2 {
     margin: 0 25px;
     padding: 0;
   }
 }
-@media only screen and (max-width: 768px) {
+@media all and (min-width: 426px) and (max-width: 768px) {
   .hero .content {
     padding: 30px;
   }
   .hero .content h1 {
     font-size: 2.5rem;
+    margin-bottom: 10px;
   }
   .hero .content h2 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
   }
   .contact {
     height: 110vh;
