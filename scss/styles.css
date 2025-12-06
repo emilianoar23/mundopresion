@@ -35,6 +35,10 @@ body {
   background-color: #ececec;
 }
 
+::-moz-selection {
+  background-color: #9D9B9D;
+}
+
 ::selection {
   background-color: #9D9B9D;
 }
@@ -68,7 +72,6 @@ header {
   padding-top: 17px;
   background: none;
   overflow: hidden;
-  -webkit-transition: all 0.3s;
   transition: all 0.6s;
   opacity: 0;
   padding-bottom: 6px;
@@ -224,6 +227,7 @@ header nav ul li a:hover {
 }
 
 .clientes {
+  height: -moz-max-content;
   height: max-content;
   padding-top: 40px;
   position: relative;
@@ -386,30 +390,13 @@ header nav ul li a:hover {
     opacity: 0;
   }
 }
-
-@-webkit-keyframes scroll {
-  0% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translateY(20px);
-    transform: translateY(20px);
-  }
-}
 @keyframes scroll {
   0% {
     opacity: 1;
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
     transform: translateY(0);
   }
   100% {
     opacity: 0;
-    -webkit-transform: translateY(20px);
-    -ms-transform: translateY(20px);
     transform: translateY(20px);
   }
 }
@@ -545,8 +532,6 @@ nav ul li {
     right: 22px;
     top: 0;
     width: 30px;
-    -webkit-transition: all 200ms ease-in;
-    -moz-transition: all 200ms ease-in;
     transition: all 200ms ease-in;
   }
 }
