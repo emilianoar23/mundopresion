@@ -92,10 +92,14 @@ nav {
   }
 
   .clientes {
-    height: 158vh;
+    height: max-content;
     .clientes-content {
       h2 {
         margin: 0 25px;
+        padding: 0;
+      }
+      h3 {
+        margin: 45px 25px;
         padding: 0;
       }
     }

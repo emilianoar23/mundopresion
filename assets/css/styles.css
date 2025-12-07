@@ -10,7 +10,7 @@
   padding: 50px 2% 250px;
 }
 
-.clientes .clientes-content h2, .servicios h2 {
+.clientes .clientes-content h2 {
   font-size: 2rem;
   font-weight: 400;
   margin-bottom: 20px;
@@ -50,7 +50,7 @@ body {
   padding: 50px 2% 250px;
 }
 
-.clientes .clientes-content h2, .servicios h2 {
+.clientes .clientes-content h2 {
   font-size: 2rem;
   font-weight: 400;
   margin-bottom: 20px;
@@ -130,7 +130,7 @@ header nav ul li a:hover {
   padding: 50px 2% 250px;
 }
 
-.clientes .clientes-content h2, .servicios h2 {
+.clientes .clientes-content h2 {
   font-size: 2rem;
   font-weight: 400;
   margin-bottom: 20px;
@@ -182,6 +182,15 @@ header nav ul li a:hover {
   background-color: #f8f9fa;
   text-align: center;
 }
+.servicios h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #2563eb;
+  margin-bottom: 40px;
+  display: inline-block;
+  border-bottom: 1.5px solid;
+  padding-bottom: 5px;
+}
 .servicios .row {
   display: flex;
   flex-wrap: wrap;
@@ -210,17 +219,20 @@ header nav ul li a:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
-.servicios .row .section-servicios .gridItem .servicios-ico {
-  max-width: 80px;
+.servicios .row .section-servicios .gridItem svg {
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  border-radius: 50%;
+  background: rgba(59, 130, 246, 0.12);
+  color: #2563eb;
   margin-bottom: 15px;
 }
 .servicios .row .section-servicios .gridItem h3 {
-  font-size: 1rem;
-  font-weight: 400;
-  color: #0e0d0d;
-}
-.servicios .row .servicios-img {
-  display: none;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: #2563eb;
+  margin: 10px;
 }
 
 .clientes {
@@ -424,7 +436,7 @@ header nav ul li a:hover {
   padding: 50px 2% 250px;
 }
 
-.servicios h2, .clientes .clientes-content h2 {
+.clientes .clientes-content h2 {
   font-size: 2rem;
   font-weight: 400;
   margin-bottom: 20px;
@@ -571,10 +583,14 @@ nav ul li {
     margin-bottom: 10px;
   }
   .clientes {
-    height: 158vh;
+    height: max-content;
   }
   .clientes .clientes-content h2 {
     margin: 0 25px;
+    padding: 0;
+  }
+  .clientes .clientes-content h3 {
+    margin: 45px 25px;
     padding: 0;
   }
 }
@@ -678,4 +694,4 @@ nav ul li {
   .servicios-img {
     max-width: 350px;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
