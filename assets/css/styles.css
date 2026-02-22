@@ -385,13 +385,15 @@ header nav ul li a:hover {
   text-align: center;
   border-radius: 5px;
   animation: popup-alert 3s forwards;
-  animation: popup-alert 3s forwards;
 }
 .contacto .alerta-envio.error {
   background: #dc3545;
 }
 .contacto .alerta-envio .mensaje-popup p {
   margin: 0;
+}
+.contacto .alerta-envio {
+  animation: popup-alert 3s forwards;
 }
 @keyframes popup-alert {
   0% {
@@ -924,4 +926,4 @@ nav ul li {
   .servicios .row .servicios-img {
     margin: 0px 20px !important;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
