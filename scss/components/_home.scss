@@ -235,6 +235,7 @@
       font-size: 1.6rem;
       font-weight: 800;
       color: $font-white;
+      border-bottom: 1.5px solid $dt-color2;
       margin: 10px;
       text-shadow: none;
     }
@@ -243,6 +244,7 @@
       font-size: 0.9rem;
       color: $font-white;
       margin: 10px;
+      text-align: left;
     }
 
     .items-center {

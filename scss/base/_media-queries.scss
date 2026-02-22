@@ -255,7 +255,7 @@ nav {
   }
 }
 
-@media all and (min-width: 1024px) and (max-width: 2560px) {
+@media all and (min-width: 1024px) and (max-width: 1440px) {
 
   .hero .content {
     padding: 100px;
@@ -297,6 +297,58 @@ nav {
   footer {
     .footer-content {
       margin: 0 60px;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}
+
+@media all and (min-width: 1441px) and (max-width: 2560px) {
+
+  .hero .content {
+    padding: 100px;
+
+    h1 {
+      font-size: 3rem;
+      margin: 10px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin: 20px;
+    }
+  }
+
+  .clientes {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    .clientes-content {
+
+      .icons {
+        width: 70%;
+      }
+    }
+  }
+
+  .contact {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    h2 {
+      margin: 30px;
+      color: $dt-color2;
+      text-shadow: none;
+    }
+    .contact-container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  }
+    footer {
+    .footer-content {
+      max-width: 1600px;
       flex-direction: row;
       justify-content: space-between;
     }
