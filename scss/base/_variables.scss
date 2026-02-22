@@ -1,24 +1,15 @@
 //color de letra
 $font-white: #FAFBFB;
-$font-dark: #0e0d0d;
+$font-dark: #4b5563;
 
 //detalles
-$dt-color1: #edc720;
-$dt-color2: #2D2137;
-
-//formulario
-$shadow-color: #000;
-
-//color contenedores
 $bg-bdy: #ececec;
-$bg-hdr: #1b00dd;
-$bg-hdr-ftr: #1b00dd;
-$bg-container1: #9591A4;
-$bg-container2: #9D9B9D;
-$bg-form: #dbdbdb66;
-
-//hero sec
-$pointSize: 2.5;
+$bg-selection: #90aae7;
+$bg-dark: #1f2937;
+$dt-color1: #edc720;
+$dt-color2: #1b00dd;
+$dt-color3: #5730d6;
+$shadow-color: #000;
 
 //Estilo de seccion
 %row {
@@ -34,9 +25,10 @@ $pointSize: 2.5;
 
 //Estilo de titulos
 %titulos {
-    font-size: 2.5rem;
-    line-height: 1.8;
-    font-weight: 300;
-    margin-bottom: 10px;
-    text-align: center;
-  }
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  display: inline-block;
+  border-bottom: 1.5px solid;
+  padding-bottom: 5px;
+}

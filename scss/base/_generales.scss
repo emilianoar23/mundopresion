@@ -4,17 +4,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Raleway', sans-serif;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     background-color: $bg-bdy;
 }
 
 ::selection {
-    background-color: $bg-container2;
+    background-color: $bg-selection;
 }
