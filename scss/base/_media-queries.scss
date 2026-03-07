@@ -1,3 +1,5 @@
+@use "../base/variables" as *;
+
 @media only screen and (max-width: 766px) {
   .open-nav {
     max-height: 600px;

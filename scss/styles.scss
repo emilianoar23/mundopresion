@@ -1,8 +1,8 @@
-@import "./base/generales";
-@import "./base/variables";
+@use "./base/variables";
+@use "./base/generales";
 
-@import "./components/header";
-@import "./components/home";
-@import "./components/footer";
+@use "./components/header";
+@use "./components/home";
+@use "./components/footer";
 
-@import "./base/media-queries";
+@use "./base/media-queries";
